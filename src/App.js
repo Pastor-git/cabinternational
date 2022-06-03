@@ -1,12 +1,25 @@
 import React from 'react';
 
+import NavBar from './components/NavBar/NavBar';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <a>Learn React</a>
-    </div>
+    <Router>
+      <Switch>
+      <NavBar className="App">
+        <a>Learn React</a>
+      </NavBar>
+      </Switch>
+    </Router>
   );
 }
 

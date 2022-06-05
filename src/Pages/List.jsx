@@ -1,9 +1,13 @@
 import React from "react";
 
-function List () {
+function GeneralGrives() {
+    console.log("Hello there!");
+};
+
+function List (props) {
  return (
      <div>
-         <button id="testbutton">Click me!</button></div>
+         <button id="testbutton" onClick={GeneralGrives}>Click me!</button></div>
  );
 }
 

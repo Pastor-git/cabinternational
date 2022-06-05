@@ -1,9 +1,9 @@
 import React from "react";
-import "List.css";
 
 function List () {
  return (
-     <div><button name="testbutton">Click me!</button>List HI there!</div>
+     <div>
+         <button id="testbutton">Click me!</button></div>
  );
 }
 

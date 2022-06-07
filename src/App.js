@@ -9,7 +9,7 @@ import {
 import Home from './Pages/Home'
 import Articles from './Pages/Articles';
 import List from './Pages/List';
-import NavBar from './components/NavBar/NavBar';
+import NavBar from './Components/NavBar/NavBar';
 import './App.css';
 
 

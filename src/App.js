@@ -6,11 +6,14 @@ import Home from "./Pages/Home";
 import Articles from "./Pages/Articles";
 import List from "./Pages/List";
 import NavBar from "./Components/NavBar/NavBar";
+import Header from "./Components/Header/Header";
+
 import "./App.css";
 
 function App() {
   return (
       <Router>
+        <Header />
         <NavBar />
         <Switch>
           <Route exact path="/">

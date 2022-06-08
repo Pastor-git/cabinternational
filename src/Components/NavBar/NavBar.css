@@ -1,13 +1,22 @@
-.navButton {
-    background-color: aquamarine;
-    border: none;
-    color: black;
-    width: 80px;
+.navbutton {
+    background-color: #090318;
+    width: 120px;
+    border: 4px;
+    border-color: black;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    text-decoration: solid;
-    display:table-column;
     font-size: 16px;
-    margin: 4px 2px;
-    cursor:crosshair;
-}
-
+    border: 1px solid grey;
+    border-radius: 10px;
+  }
+  .navbutton:hover {
+    background-color: rgb(225, 220, 236);
+    box-shadow: 0 2px 10px 0 rgb(248, 246, 246),
+      0 5px 12px 0 rgba(255, 255, 255, 0.247);
+    text-decoration: dashed;
+    color: rgb(54, 65, 218);
+    border: 1px solid rgb(10, 17, 104);
+    cursor: pointer;
+    border-radius: 10px;
+  }

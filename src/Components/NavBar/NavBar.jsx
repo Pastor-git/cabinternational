@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import Menu from "../Menu/Menu";
 import "./NavBar.css";
@@ -10,19 +10,19 @@ function NavBar() {
     <Menu>
       <table>
         <tr>
-          <Link to="/">
-            <button class="navButton">Home</button>
-          </Link>
+          <NavLink to="/">
+            <button class="navbutton">Home</button>
+          </NavLink>
           </tr>
           <tr>
-          <Link to="/list">
-            <button class="navButton">List</button>
-          </Link>
+          <NavLink to="/list">
+            <button class="navbutton">List</button>
+          </NavLink>
           </tr>
           <tr>
-          <Link to="articles">
-            <button class="navButton">Articles</button>
-          </Link>
+          <NavLink to="articles">
+            <button class="navbutton">Articles</button>
+          </NavLink>
         </tr>
       </table>
     </Menu>

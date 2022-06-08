@@ -1,17 +1,22 @@
-import { React, useState } from "react";
+import React from "react";
 
-function List() {
-    const [counter, setCounter] = useState(0);
-  return (
-    <div>
-      <button id="testbutton"  onClick={() => setCounter(counter + 1)}>
-        Click me!
-      </button>
-      <div style={{ padding: 100,}}>
-      <p name="test">count: {counter}</p>
+import './Wrapper.css';
+
+class List extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 1,
+    };
+  }
+
+  render() {
+    return (
+      <div class="wrap">
+        <button id="testbutton">Click me!</button>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default List;

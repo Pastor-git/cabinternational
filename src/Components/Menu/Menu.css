@@ -5,7 +5,7 @@
     position: fixed;
     width: 150x;
     height: 180px;
-    margin-top: 58px;
+    margin-top: 80px;
     margin-left: 20px;
     border-radius: 3px;
     display: block;
@@ -15,5 +15,5 @@
     float: left;
     overflow: hidden;
     position: fixed;
-    top: 0; 
+    top: 0;
  }

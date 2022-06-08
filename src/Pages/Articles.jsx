@@ -1,9 +1,11 @@
 import React from "react";
 
-function Articles () {
- return (
-     <div>Articles</div>
- );
+import './Wrapper.css';
+
+class Articles extends React.Component {
+  render() {
+    return <div class="wrap">Articles</div>;
+  }
 }
 
 export default Articles;

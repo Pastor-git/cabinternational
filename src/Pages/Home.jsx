@@ -1,9 +1,11 @@
 import React from "react";
 
-function Home () {
- return (
-     <div>Home</div>
- );
+import './Wrapper.css';
+
+class Home extends React.Component {
+  render() {
+    return <div class="wrap">Home</div>;
+  }
 }
 
 export default Home;

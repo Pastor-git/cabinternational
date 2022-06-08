@@ -1,0 +1,13 @@
+.navButton {
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    width: 80px;
+    text-align: center;
+    text-decoration: solid;
+    display:table-column;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:crosshair;
+}
+

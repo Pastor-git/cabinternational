@@ -1,0 +1,19 @@
+.menu {
+    padding: 10px;
+    border-style: groove;
+    border-radius: 10px;
+    position: fixed;
+    width: 150x;
+    height: 180px;
+    margin-top: 58px;
+    margin-left: 20px;
+    border-radius: 3px;
+    display: block;
+    padding: 20px;
+    background-color: rgba(88, 88, 88, 0.6);
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+ }

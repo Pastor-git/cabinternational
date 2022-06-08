@@ -8,17 +8,23 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <Menu>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/list">List</Link>
-        </li>
-        <li>
-          <Link to="articles">Articles</Link>
-        </li>
-      </ul>
+      <table>
+        <tr>
+          <Link to="/">
+            <button class="navButton">Home</button>
+          </Link>
+          </tr>
+          <tr>
+          <Link to="/list">
+            <button class="navButton">List</button>
+          </Link>
+          </tr>
+          <tr>
+          <Link to="articles">
+            <button class="navButton">Articles</button>
+          </Link>
+        </tr>
+      </table>
     </Menu>
   );
 }

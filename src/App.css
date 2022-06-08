@@ -2,7 +2,14 @@
   text-align: center;
 }
 
-
+body {
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image: url("./gfx/architecture1920.jpg");
+  background-attachment: scroll;
+  background-position: top;
+  background-origin: border-box;background-blend-mode: lighten;
+}
 
 .App-header {
   background-color: #282c34;

@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Articles from "./Pages/Articles";
 import List from "./Pages/List";
-import NavBar from "./Components2/NavBar/NavBar";
-import Header from "./Components2/Header/Header";
+import NavBar from "./Components/NavBar/NavBar";
+import Header from "./Components/Header/Header";
 
 import "./App.css";
 

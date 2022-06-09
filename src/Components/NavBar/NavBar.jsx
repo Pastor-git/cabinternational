@@ -15,7 +15,7 @@ function NavBar() {
           </NavLink>
           </tr>
           <tr>
-          <NavLink to="/list">
+          <NavLink to="/reports">
             <button class="navbutton">Reports</button>
           </NavLink>
           </tr>

@@ -1,11 +1,21 @@
-import React from 'react';
+import React from "react";
+import { useState } from "react";
 
-export const CounterButton = (props) => {
+
+export const CounterButton = () => {
+  const [counter, setCounter] = useState(0);
+
+  const increment = () => {
+    setCounter((prev) => prev + 1);
+  };
+
   return (
-    <button onClick={props.onClick}>
-    </button>
-
+    <div>
+      <button id="testbutton" onClick={increment}>
+        {counter}
+      </button>
+    </div>
   );
-}
+};
 
 export default CounterButton;

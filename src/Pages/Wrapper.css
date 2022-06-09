@@ -3,10 +3,11 @@
     border-style: double;
     border-color: cornsilk;
     border-width: 200;
-    padding-top: 1600px;
+    height: fit-content;
+    /* padding-top: 1600px; */
     margin-top: 60px;
     margin-left: 220px;
     margin-right: 220px;
     color:chartreuse;
-    text-align: start;
+    text-align:center;
     }

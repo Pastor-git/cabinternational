@@ -1,4 +1,5 @@
 import React from "react";
+import CounterButton from "../Components/CounterButton/CounterButton";
 
 import './Wrapper.css';
 
@@ -13,7 +14,7 @@ class List extends React.Component {
   render() {
     return (
       <div class="wrap">
-        <button id="testbutton">Click me!</button>
+        <CounterButton />
       </div>
     );
   }

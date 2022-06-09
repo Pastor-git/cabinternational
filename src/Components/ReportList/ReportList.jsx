@@ -1,15 +1,15 @@
 import React from "react";
 
-import ReporDisplay from "../ReportDisplay/ReportDisplay";
+import ReportDisplay from "../ReportDisplay/ReportDisplay";
 
 export const ReportList = (props) => {
   return (
     <div>
       {props.report_list.map((props) => {
         return (
-          <ReporDisplay
-          name={props.name} 
-          img={props.img} 
+          <ReportDisplay
+          name={props.name}
+          img={props.img}
           props={props.text} />
         );
       })}

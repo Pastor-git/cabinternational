@@ -1,13 +1,15 @@
 .wrap {
     position: center;
     border-style: double;
-    border-color: cornsilk;
+    border-color: rgba(240, 239, 235, 0.199);
     border-width: 200;
     height: fit-content;
     /* padding-top: 1600px; */
     margin-top: 60px;
     margin-left: 220px;
     margin-right: 220px;
-    color:chartreuse;
+    color:antiquewhite;
     text-align:center;
+    /* background-color: rgba(125, 124, 133, 0.822); */
+    border-radius: 5px;
     }

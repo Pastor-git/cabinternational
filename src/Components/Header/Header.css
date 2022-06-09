@@ -1,6 +1,10 @@
 .header {
     width: 800;
     height: 400;
-    background-color: blanchedalmond;
+    background-color: rgba(15, 14, 19, 0.829);
     text-align: center;
+    margin-top: 10px;
+    margin-left: 280px;
+    margin-right: 280px;
+    color:aliceblue;
 }

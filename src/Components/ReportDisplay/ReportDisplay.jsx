@@ -8,7 +8,7 @@ export const ReportDisplay = (props) => {
       <h1 id="report_title">{props.report.name}</h1>
       <img src={props.report.img} alt="jpg1" />
       <h2>
-        <text>{props.report.text}</text>
+        <p>{props.report.text}</p>
       </h2>
 
     </div>

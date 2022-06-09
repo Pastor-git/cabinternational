@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
+import './CounterButton.css';
 
 export const CounterButton = () => {
   const [counter, setCounter] = useState(0);
@@ -11,7 +12,7 @@ export const CounterButton = () => {
 
   return (
     <div>
-      <button id="testbutton" onClick={increment}>
+      <button id="testbutton" class="counterbutton"onClick={increment}>
         {counter}
       </button>
     </div>

@@ -4,7 +4,7 @@
     border-radius: 10px;
     position: fixed;
     width: 150x;
-    height: 180px;
+    height: 120px;
     margin-top: 80px;
     margin-left: 20px;
     border-radius: 3px;
@@ -16,4 +16,5 @@
     overflow: hidden;
     position: fixed;
     top: 0;
+    border-radius: 12px;
  }

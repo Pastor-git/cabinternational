@@ -1,6 +1,6 @@
 import React from "react";
 
-import Article from '../Components/Article/Article'
+import ArticleList from '../Components/ArticleList/ArticleList'
 
 import './Wrapper.css';
 
@@ -20,13 +20,8 @@ class Articles extends React.Component {
 
   render() {
     return (<div>
-      {/* {data.map((elem) =>
-        (
-          <Article key={`news-${elem.id}`}
-          header={elem.title}
-          intro={elem.intro}
-          author={elem.author}/>
-        ))} */}
+
+        <ArticleList data={this.state.data}/>
         </div>)
   }
 }

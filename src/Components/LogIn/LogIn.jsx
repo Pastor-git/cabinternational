@@ -6,10 +6,10 @@ export const LogIn = () => {
   return (
     <div class="login">
       <p>
-        <input type="text" id="login" value="login"></input>
+        <input type="text" id="login" title="login"></input>
       </p>
       <p>
-        <input type="text" id="pass" value="password"></input>
+        <input type="text" id="pass" title="password"></input>
       </p>
       <button type="submit">Login</button>
     </div>

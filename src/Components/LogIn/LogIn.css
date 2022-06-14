@@ -11,3 +11,11 @@
     text-align:center;
     border-radius: 5px;
 }
+
+label {
+    background-color: rgb(34, 33, 33);
+    position: center;
+    border-style: double;
+    border-color: rgba(240, 239, 235, 0.199);
+    color:antiquewhite;
+}

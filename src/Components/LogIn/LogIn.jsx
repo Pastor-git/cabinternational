@@ -1,16 +1,20 @@
 import React from "react";
 
-import './LogIn.css';
+import "./LogIn.css";
 
 export const LogIn = () => {
   return (
     <div class="login">
-      <p>
-        <input type="text" id="login" title="login"></input>
-      </p>
-      <p>
-        <input type="text" id="pass" title="password"></input>
-      </p>
+      <form>
+      <label after="login">Login:</label>
+        <p>
+          <input type="text" id="login"></input>
+        </p>
+        <label for="pass">Password:</label>
+        <p>
+          <input type="text" id="pass"></input>
+        </p>
+      </form>
       <button type="submit">Login</button>
     </div>
   );

@@ -1,0 +1,13 @@
+.login {
+    position: center;
+    border-style: double;
+    border-color: rgba(240, 239, 235, 0.199);
+    border-width: 200;
+    height: fit-content;
+    margin-top: 20px;
+    margin-left: 520px;
+    margin-right: 520px;
+    color:antiquewhite;
+    text-align:center;
+    border-radius: 5px;
+}

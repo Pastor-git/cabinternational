@@ -1,6 +1,6 @@
 Projekt realizowany na potrzeby swojej działalności zawodowej.
-Wersja na 15.06.2022 powstałą na potrzeby stowrzenia testowego sandbox dla projektu na Akademi Leona Koźmińskiego
-na kierunku Tester Automatyzujący z Selenium.
+Wersja 15.06.2022 powstała na potrzeby stworzenia testowego sandbox dla projektu na Akademii Leona Koźmińskiego
+na kierunku Tester Automatyzujący w Selenium.
 
 Repozytorium:
 

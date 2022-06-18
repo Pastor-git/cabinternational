@@ -14,15 +14,15 @@
     text-align: center;
   }
 
-  .author {
-    font-size: 8px;
-    padding-top: 100px;
-  }
+.author {
+  font-size: 8px;
+  padding-top: 100px;
+ }
 
-  .link{
-    color:azure;
-    text-decoration: none;
-  }
+.link{
+  color:azure;
+  text-decoration: none;
+}
 
 .link:hover {
  color: rgba(175, 175, 255, 0.863);

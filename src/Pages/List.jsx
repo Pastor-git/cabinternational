@@ -14,10 +14,10 @@ class List extends React.Component {
     super(props);
     this.state = {
       report_list: [
-        { name: 'rep1', text: text, img: cab1 },
-        { name: 'rep2', text: text, img: cab2 },
-        { name: 'rep3', text: text, img: cab3 },
-        { name: 'rep4', text: text, img: cab4 },
+        { name: 'Report 1', text: text, img: cab1 },
+        { name: 'Report 2', text: text, img: cab2 },
+        { name: 'Report 3', text: text, img: cab3 },
+        { name: 'Report 4', text: text, img: cab4 },
       ],
     }
   }
